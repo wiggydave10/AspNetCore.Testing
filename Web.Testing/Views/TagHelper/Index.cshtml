@@ -1,0 +1,46 @@
+﻿
+<div class="row">
+    <div class="col-lg-12">
+        <label>Disabled Input</label>
+        <input is-disabled="true" value="Test data" />
+
+        <br />
+
+        <label>Normal Input with IsDisabled false</label>
+        <input is-disabled="false" value="Test data" />
+
+        <br />
+
+        <label>Normal Input without IsDisabled</label>
+        <input value="Test data" />
+
+        <br />
+        <br />
+        <br />
+
+        <label>Readonly Input</label>
+        <input is-readonly="true" value="Test data" />
+
+        <br />
+
+        <label>Normal Input with IsReadonly false</label>
+        <input is-readonly="false" value="Test data" />
+
+        <br />
+
+        <label>Normal Input without IsReadonly</label>
+        <input value="Test data" />
+
+        <br />
+        <br />
+        <br />
+
+        <input datepicker="true" date="@DateTime.Now" />
+        @*<div class="input-group date" data-provide="datepicker">
+                <input type="text" class="form-control">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                </div>
+            </div>*@
+    </div>
+</div>
